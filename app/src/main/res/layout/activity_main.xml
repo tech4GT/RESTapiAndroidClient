@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tech4gt.restapi.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="4"
+    >
+
+    <ImageButton
+        android:id="@+id/btnPosts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_dashboard_indigo_700_36dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|top"
+        />
+    <ImageButton
+        android:id="@+id/btnUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_perm_identity_indigo_900_48dp"
+        android:layout_weight="1"
+        />
+    <ImageButton
+        android:id="@+id/btnPhotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_art_track_indigo_900_48dp"
+        android:layout_weight="1"
+        />
+    <ImageButton
+        android:id="@+id/btnTodos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_done_all_indigo_900_48dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>
